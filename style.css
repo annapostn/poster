@@ -2,12 +2,12 @@ header {
   position:absolute;
   width: 1683px;
   height: 331px;
-  background-color: #5B9BD5;
+  background: -moz-linear-gradient(top, rgba(91,155,213,1) 0%, rgba(109,166,218,0) 11%, rgba(255,255,255,0) 100%); 
 }
 
 h1 {
   font-family: Calibri, sans-serif;
-  font-size: 82pt;
+  font-size: 41pt;
   font-weight: bold;
   color: #203864;
 }
