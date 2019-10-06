@@ -1,10 +1,7 @@
 header {
   width: 1683px;
   height: 331px;
-  background: #FFFFFF;
-  background: -webkit-linear-gradient(bottom, #FFFFFF, #5B9CD5);
-  background: -moz-linear-gradient(bottom, #FFFFFF, #5B9CD5);
-  background: linear-gradient(to top, #FFFFFF, #5B9CD5);
+  background: -moz-linear-gradient(top,  rgba(91,155,213,1) 0%, rgba(109,166,218,0) 11%, rgba(255,255,255,0) 100%);
 }
 
 
