@@ -7,23 +7,25 @@
      
     /* MAIN */
     
-    .maintable {
+    .firstcolumn {
       position: absolute;
       top: 350px;
-      width: 1683px;
-      cellspacing: 3;
-      cellpadding: 5;
-      border-radius: 20px;
-      vertical-align: top;
-      text-align: center;
-      bgcolor: red;
-    }
-    
-    .maincolumn {
       width: 841.5px;
       height: 1936px;
       bordercolor: #5B9BD5;
       border: 5px;
+      border-radius: 20px
+    }
+    
+    .secondcolumn {
+      position: absolute;
+      top: 350px;
+      left: 841.5px;
+      width: 841.5px;
+      height: 1936px;
+      bordercolor: #5B9BD5;
+      border: 5px;
+      border-radius: 20px
     }
   </style>
   
@@ -44,16 +46,10 @@
   <div class="line2"></div>
   
   <!-- MAIN !-->
-  <table class="maintable">
-    <tr>
-      <td class="maincolumn">
-        <p>первая колонка</p>
-      </td>
-      <td class="maincolumn">
-        <p>вторая колонка</p>
-      </td>
-    </tr>
-  </table>
+  <div class="firstcolumn">
+  </div>
+  <div class="secondcolumn">
+  </div>
     
   
 </body>
